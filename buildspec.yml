@@ -3,14 +3,14 @@ phases:
   install:
     commands:
     - echo "installing nothing"
-  pre-build:
+  pre_build:
     commands:
     - echo "Entered Pre-build phase"
   build:
     commands:
     - echo "Entered Build phase"
     - mv names.txt name.txt
-  post-build:
+  post_build:
     commands:
     - echo "Entered Post buid phase"
     - mv name.txt myname.txt
