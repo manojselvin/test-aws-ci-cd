@@ -1,0 +1,13 @@
+version: 0.2
+phases:
+  pre-build:
+    commands:
+    - echo "Entered Pre-build phase"
+  build:
+    commands:
+    - echo "Entered Build phase"
+    - mv names.txt name.txt
+  post-build:
+    commands:
+    - echo "Entered Post buid phase"
+    - mv name.txt myname.txt
