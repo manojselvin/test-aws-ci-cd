@@ -1,5 +1,8 @@
 version: 0.2
 phases:
+  install:
+    commands:
+    - echo "installing nothing"
   pre-build:
     commands:
     - echo "Entered Pre-build phase"
